@@ -1,0 +1,14 @@
+{
+  "redirects": [
+    { 
+      "source": "/",
+      "destination": "https://vercel.com",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "destination": "https://vercel.com/:path*",
+      "permanent": true
+    }
+  ]
+}
